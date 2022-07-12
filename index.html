@@ -1,71 +1,93 @@
-<h1>Front End Eğitim</h1>
-<p>
-    Front end eğitimi süreci.
-</p>
-<h2>Görseller ile Çalışmak</h2>
-<!-- img src etiketi ile görsel ekleme -->
-<!-- Yükleme yapmak istediğimiz resmin proje klasöründe olması ya da internet üzerinden adres tayin edilmesi gerekmektedir. -->
-<!-- Proje klasörünün içindeki resimler genel olarak daha işlevsel daha hızlı bir şekilde eklenebiliyor. -->
+<!-- Html temel iskeleti -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Eğitim
 
-<p id="üst">Üst Kısımlarda bir paragraf.</p>
-
-<img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/sayfalar-arasi-link.gif" alt="Patika Ders Anlatım" width="300" height="400">
-<img src="media/melo.jpg" alt="Melikenin Kafası" width="300" height="300">
-<!-- Yukarıdaki kullanımda local üzerinden proje klasörüne yerleştirdiğim resimi kullandım -->
-<img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/sayfalar-arasi-link.gif" alt="Patika Ders Anlatım" width="300" height="300">
-<!-- Burada ise app.patika.dev adresinden aldığım bir resmin bağlantısını kullandım. Resmin sürekliliği kesin değildir. -->
-<!-- Bu kısımda ise width ve height etiketlerinin nasıl çalıştığına baktım. -->
-<img src="media/1.png" width="300" height="300" border="3" />
-
-<img src="media/3.png" alt="" align="right" width="300" height="300">
-<!-- border:çerçeve  align:yerleşme yeri-->
-
-<br>
-<br>
-<h2>Linkler İle Çalışmak</h2>
-<!-- a href etiketi sayesinde sayfamıza link verebiliyoruz. -->
-<a href=""></a>
-<!-- 
-    Başka bir web siteye gitmek
-    Başka bir sayfaya gitmek
-    Sayfa içerisinde bir yere gitmek
-    Eposta atmak
-    Telefon acmak
-    Resimli link kullanmak
--->
-<ul>
-    <li>
-        <a href="https://www.youtube.com" target="_blank">
-            Youtube Gider
-        </a>
+    </title>
+    <!-- İkon eklenecek yer -->
+    <link rel = "icon" href = 
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 
+        width="70" heigt="70" type = "image/x-icon">
+</head>
+<!-- Web sayfasında görünecek html bileşenleri body kısmında yer alacak. -->
+<body>
+    <!-- Başlık kısmı ana sayfadan ayrı bir etiketle belirtilir -->
+    <!-- nav bar start -->
+    <header>
+        <h1>FRONT END EĞİTİM</h1>
+        <img src="media/html5-icon-0.jpg" alt="Web Site Logosu" width="230" height="70">
+    </header>
+    <nav>
+        <h2>Lorem, ipsum.</h2>
+        <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Eius, dolorem.</li>
+            <li>Excepturi, nemo!</li>
+            <li>Officia, dolorem.</li>
+             <li>Error, distinctio?</li>
+        </ul>
         
-    </li>
-    <li>
-        <a href="ikincisayfa.html">
-            İkinci Sayfaya Gider
-        </a>
-    </li>
-    <li>
-        <a href="#üst">
-            Üst Kısımlarda Bir Paragraf
-        </a>
-    </li>
-    <li>
-        <a href="mailto:alpyvz00@gmail.com">
-            E-posta
-        </a>
-    </li>
-    <li>
-        <a href="tel:+905465464646">
-            Telefon ile ara
-        </a>
-    </li>
-    <li>
-        <a href="https://www.instagram.com/yv.melike" target="_blank">
-            <img src="media/melo.jpg" alt="Melike" width="300" height="300">
-        </a>
-    </li>
-</ul>
-<!-- a href etiketi ile yapılabilecekler bunlarla sınırlı değil
-MDN references bakılır. -->
-<!-- targer:_blank etiketi sayesinde bir başka sayfada açılır link kaynağı. -->
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- main bar start -->
+    <main>
+        <!-- aside bölgesi -->
+        <aside>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi mollitia debitis odio dicta quam! Vel rerum at maxime velit, modi aliquid vitae nesciunt similique eligendi reiciendis sequi mollitia quasi corrupti.</p>
+            <p>Voluptates minima quod modi vero nisi eos dignissimos minus molestias delectus illum repudiandae, placeat reprehenderit saepe nam unde soluta aut iste et incidunt praesentium laborum nulla porro, cum fugit! Soluta!</p>
+            <ul>
+                <li>Lorem, ipsum.</li>
+                <li>Nobis, quasi.</li>
+                <li>Vitae, dignissimos?</li>
+            </ul>
+        </aside>
+        <!-- section bölgesi -->
+        <section>
+            <h2>Lorem, ipsum.</h2>
+            <!-- articles -->
+            <article>
+                <p>Lorem, ipsum.</p>
+                <p>Minus, eius!</p>
+                <p>Odio, reiciendis.</p>
+                <ul>
+                    <li>Lorem.</li>
+                    <li>A?</li>
+                </ul>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Debitis recusandae iste ullam.</p>
+                <p>Quae quos ea mollitia.</p>
+                <p>In, rerum alias. Molestiae?</p>
+                <ul>
+                    <li>Lorem, ipsum.</li>
+                    <li>Quasi, aperiam!</li>
+                    <li>Fugiat, iste.</li>
+                    <li>Vitae, blanditiis.</li>
+                    <li>Libero, quae?</li>
+                </ul>
+            </article>
+        </section>
+        <!-- section end -->
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer>
+        <h2>İletişim Bilgileri</h2>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Ullam molestias voluptatem eum inventore quasi.</p>
+        <p>Perspiciatis minima rem dolorem deserunt quo.</p>
+        <ul>
+            <li>Lorem.</li>
+        </ul>
+    </footer>
+    <!-- footer end -->
+</body>
+</html>
